@@ -4,6 +4,6 @@ import Button from '@mui/material/Button';
 
 export default function BotaoAdicionar() {
   return (
-      <Button sx={{backgroundColor:"#06aaee"}}   variant="contained">Adicionar</Button>
+      <Button sx={{backgroundColor:"#06aaee" }}   variant="contained">Adicionar</Button>
   );
 }

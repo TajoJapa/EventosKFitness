@@ -7,6 +7,6 @@ import CardBasico from '../../card';
 export default function BotaoInformacoes() {
   return (
 
-      <Button sx={{backgroundColor:"#06aaee",width:"25%",height:"100%",fontSize:"30px"}}  variant="contained" endIcon={<HelpCenterIcon sx={{ fontSize: 40 }} />}>Informações</Button>
+      <Button sx={{backgroundColor:"#06aaee"}}  variant="contained" endIcon={<HelpCenterIcon sx={{ fontSize: 40 }} />}>Informações</Button>
   );
 }

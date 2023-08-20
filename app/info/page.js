@@ -1,6 +1,11 @@
 'next/babel'
 
-export default function PalcoPage() {
+import React, { useState } from "react";
+import { makeStyles } from "@material-ui/core/styles";
+
+
+
+export default function InfoPage() {
   return (
     <div style={{position:'fixed',top:'0',
     left: '0',
