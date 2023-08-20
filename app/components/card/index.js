@@ -15,12 +15,12 @@ const bull = (
   </Box>
 );
 
-export default function CardBasico() {
+export default function CardBasico(props) {
   return (
-    <Card sx={{ minWidth: 275 ,backgroundColor:"gray"}}>
+    <Card sx={{ minWidth: 275 ,backgroundColor:"white"}}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          d
+          {props.children}
         </Typography>
        
       </CardContent>
