@@ -4,6 +4,6 @@ import Button from '@mui/material/Button';
 
 export default function BotaoCancelar() {
   return (
-      <Button variant="outlined">Cancelar</Button>
+      <Button variant="outlined">Cancear</Button>
   );
 }
