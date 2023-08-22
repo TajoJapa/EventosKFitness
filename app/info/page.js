@@ -3,7 +3,8 @@
 
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import CardBasico from "../components/card";
+import CardBasicInformacoes from "../components/card/cardinformacoes";
+
 
 
 
@@ -14,12 +15,7 @@ export default function InfoPage() {
     width: '100%',
     height: '100%',
     backgroundColor: 'black',zIndex: -2}}>
-      <CardBasico>
-        Informações de :
-
-        Links da Academia,contatos,consulta geral de dados da academia !
-        nome de funcionários e etc...
-      </CardBasico>
+     <CardBasicInformacoes></CardBasicInformacoes>
     </div>
   )
 }
