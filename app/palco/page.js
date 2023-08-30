@@ -1,6 +1,7 @@
 'next/babel'
 
 import ModalBasico from "../components/modal"
+import Palco from "../components/palco"
 
 export default function PalcoPage() {
   return (
@@ -10,6 +11,7 @@ export default function PalcoPage() {
     height: '100%',
     backgroundColor: 'black',zIndex: -2}}>
       <ModalBasico></ModalBasico>
+      <Palco></Palco>
     </div>
   )
 }

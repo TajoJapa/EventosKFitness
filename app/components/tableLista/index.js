@@ -16,13 +16,13 @@ import CardBasico from "../card";
 
 
 const originalRows = [
-  { name: "Tomas Turbando", cadeira: 'a22', pago: 6.0, obs: 'Cu fedido do meu lado ' },
-  { name: "Noteu Cuzin", cadeira: 300, pago: 6.0, obs: 'Cu fedido do meu lado ' },
-  { name: "Xeirao Cuzinfe Dido", cadeira: 400, pago: 6.0, obs: 'Cu fedido do meu lado ' },
-  { name: "Toarrom Bado", cadeira: 500, pago: 6.0, obs: 'Cu fedido do meu lado ' },
-  { name: "Meoku Doi Pakas", cadeira: 600, pago: 6.0, obs: 'Cu fedido do meu lado ' },
-  { name: "Arrom Bado", cadeira: 700, pago: 6.0, obs: 'Cu fedido do meu lado ' },
-  { name: "Meoku Doi Pakas", cadeira: 600, pago: 6.0, obs: 'Cu fedido do meu lado ' },
+  { name: "Michael Jackson", cadeira: 'a22', pago: 6.0, obs: 'Alguma informação da pessoa ' },
+  { name: "Thiago Leão", cadeira: 300, pago: 6.0, obs: 'Alguma informação da pessoa ' },
+  { name: "Karina Leão", cadeira: 400, pago: 6.0, obs: 'Alguma informação da pessoa ' },
+  { name: "Jonas Brothers", cadeira: 500, pago: 6.0, obs: 'Alguma informação da pessoa ' },
+  { name: "Bia Da Recepção", cadeira: 600, pago: 6.0, obs: 'Alguma informação da pessoa ' },
+  { name: "Sei la", cadeira: 700, pago: 6.0, obs: 'Alguma informação da pessoa ' },
+  { name: "Qualquer Nome", cadeira: 600, pago: 6.0, obs: 'Alguma informação da pessoa ' },
   
  
 ];

@@ -7,12 +7,14 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import AccessibleIcon from '@mui/icons-material/Accessible';
 import ChairTwoToneIcon from '@mui/icons-material/ChairTwoTone';
 import EventSeatIcon from '@mui/icons-material/EventSeat';
+import { Typography } from '@mui/material';
 
-export default function BotaoCadeiraPmr() {
+export default function BotaoCadeiraPmr({children}) {
   return (
     <Stack direction="row" spacing={1}>
-      <IconButton aria-label="Cadeirantes">
-        <EventSeatIcon/>
+      <IconButton fontSize="small"  aria-label="Cadeirantes">
+        <EventSeatIcon fontSize="small" />
+        <Typography>{children}</Typography>
       </IconButton>
     </Stack>
   );

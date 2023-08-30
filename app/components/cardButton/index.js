@@ -13,9 +13,7 @@ export default function CardBotao(props) {
         <CardContent >
           <Typography  variant="h2" sx={{color:"black",fontWeight:'bold'}} >
             {props.children}
-            
           </Typography>
-          
         </CardContent>
       </CardActionArea>
     </Card>

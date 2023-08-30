@@ -7,12 +7,12 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import AccessibleIcon from '@mui/icons-material/Accessible';
 import { Typography } from '@mui/material';
 
-export default function BotaoCadeirante() {
+export default function BotaoCadeirante({ children }) {
   return (
     <Stack direction="row" spacing={1}>
-      <IconButton aria-label="Cadeirantes">
-        <AccessibleIcon />
-        <Typography>12</Typography>
+      <IconButton  aria-label="Cadeirantes">
+        <AccessibleIcon fontSize="small"  />
+        <Typography>{ children }</Typography>
       </IconButton>
     </Stack>
   );

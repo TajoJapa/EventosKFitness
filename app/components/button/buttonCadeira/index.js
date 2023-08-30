@@ -9,12 +9,12 @@ import ChairTwoToneIcon from '@mui/icons-material/ChairTwoTone';
 import EventSeatIcon from '@mui/icons-material/EventSeat';
 import { Typography } from '@mui/material';
 
-export default function BotaoCadeiraSimples() {
+export default function BotaoCadeiraSimples({ children }) {
   return (
-    <Stack direction="row" spacing={1}>
-      <IconButton aria-label="Cadeirantes">
-        <EventSeatIcon/>
-      <Typography>12</Typography>
+    <Stack direction="row" spacing={0.2}>
+      <IconButton fontSize="small" aria-label="Cadeirantes">
+        <EventSeatIcon fontSize="small" />
+      <Typography>{children}</Typography>
       </IconButton>
     </Stack>
   );
