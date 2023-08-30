@@ -12,7 +12,7 @@ import { Typography } from '@mui/material';
 export default function BotaoCadeiraPmr({children}) {
   return (
     <Stack direction="row" spacing={1}>
-      <IconButton fontSize="small"  aria-label="Cadeirantes">
+      <IconButton fontSize="small"  aria-label="Cadeirantes" style={{ color: 'red'}}>
         <EventSeatIcon fontSize="small" />
         <Typography>{children}</Typography>
       </IconButton>

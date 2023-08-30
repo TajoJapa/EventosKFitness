@@ -10,7 +10,7 @@ import { Typography } from '@mui/material';
 export default function BotaoCadeirante({ children }) {
   return (
     <Stack direction="row" spacing={1}>
-      <IconButton  aria-label="Cadeirantes">
+      <IconButton  aria-label="Cadeirantes" style={{ color: 'RebeccaPurple' }}>
         <AccessibleIcon fontSize="small"  />
         <Typography>{ children }</Typography>
       </IconButton>

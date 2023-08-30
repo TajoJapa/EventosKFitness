@@ -7,10 +7,11 @@ import { Typography } from '@mui/material';
 export default function BotaoCadeiraGordo({ children }) {
   return (
     <Stack direction="row" spacing={1}>
-      <IconButton size="small" aria-label="Cadeirantes">
+      <IconButton size="small" aria-label="Cadeirantes" style={{ color: 'MediumAquamarine' }}>
         <ChairIcon fontSize="small" />
         <Typography>{children}</Typography>
       </IconButton>
     </Stack>
   );
 }
+ 
