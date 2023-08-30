@@ -21,17 +21,19 @@ const bull = (
 
 export default function Palco() {
   return (
-    <Card xs={12} sx={{ width: '100%',height:'100%',display:'flex',flexDirection:'column' }}>
+    <Card xs={12} sx={{ width: '60%',height:'60%',display:'flex',flexDirection:'column' }}>
       <CardContent>
+          <Typography> Nome da Sessão !!!!!</Typography>
         <Grid container>
+          <Typography sx={{ fontSize: 30 }} >A</Typography>
           <BotaoCadeiraSimples>26</BotaoCadeiraSimples>
           <BotaoCadeiraSimples>24</BotaoCadeiraSimples>
-          <BotaoCadeirante></BotaoCadeirante>
-          <BotaoCadeirante></BotaoCadeirante>
-          <BotaoCadeirante></BotaoCadeirante>
-          <BotaoCadeiraGordo>adds</BotaoCadeiraGordo>
-          <BotaoCadeiraGordo>adddds</BotaoCadeiraGordo>
-          <BotaoCadeiraPmr >d</BotaoCadeiraPmr>
+          <BotaoCadeirante>55</BotaoCadeirante>
+          <BotaoCadeirante>44</BotaoCadeirante>
+          <BotaoCadeirante>33</BotaoCadeirante>
+          <BotaoCadeiraGordo>11</BotaoCadeiraGordo>
+          <BotaoCadeiraGordo>44</BotaoCadeiraGordo>
+          <BotaoCadeiraPmr>77</BotaoCadeiraPmr>
         </Grid>
       </CardContent>
     </Card>
